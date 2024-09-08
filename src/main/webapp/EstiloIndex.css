@@ -1,0 +1,125 @@
+body {
+    background-image: url('Lab.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.barra-ciudad {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(70, 131, 180, 0.8);
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: rgb(240, 248, 255);
+}
+
+.barra-principal {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.750);
+    height: 60px;
+    margin-top: 17px;
+}
+
+.logo img{
+    opacity: 0.8;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.MicroLabOnline {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Laboratorio-Salud-y-Vida {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.barra-pie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(70, 131, 180, 0.8);
+    padding-left: 10px;
+    height: 50px;
+}
+
+.red-social {
+    margin-right: 15px;
+    color: aliceblue;
+    font-size: 21px;
+    line-height: 50px;
+}
+
+.barra-navegacion {
+    background-color: rgba(25, 179, 199, 0.796);
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 77px;
+    padding: 0 10px; /* Añade relleno a los lados */
+}
+
+.barra-navegacion ul {
+    list-style: none; /* Pone la lista en horizontal */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Cambia la lista a un contenedor flex */
+}
+
+.barra-navegacion li {
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+.barra-navegacion a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.usuario  {
+    margin-right: 5px;
+    margin-left: auto; /* Llevar el botón a la derecha de la barra */
+}
+
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 200px;
+    margin-bottom: -100px;
+}
+
